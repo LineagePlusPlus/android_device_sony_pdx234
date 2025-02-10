@@ -25,6 +25,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=XQ-DQ44 \
     SystemDevice=XQ-DQ44 \
     SystemName=XQ-DQ44 \
-    BuildFingerprint=Sony/XQ-DQ44/XQ-DQ44:14/67.1.A.2.208/067001A002020800236847703:user/release-keys \
-    BuildDesc="XQ-DQ44-user 14 67.1.A.2.208 067001A002020800236847703 release-keys"
+    BuildFingerprint=Sony/XQ-DQ44/XQ-DQ44:14/67.1.A.2.315/067001A002031500236847703:user/release-keys \
+    BuildDesc="XQ-DQ44-user 14 67.1.A.2.315 067001A002031500236847703 release-keys"
 
