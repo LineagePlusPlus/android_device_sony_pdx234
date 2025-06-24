@@ -14,21 +14,16 @@
 # limitations under the License.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(LOCAL_PATH)/aicp_pdx234_common.mk)
 
-# Inherit from device.mk
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+PRODUCT_SYSTEM_NAME := XQ-DQ44
+PRODUCT_SYSTEM_DEVICE := XQ-DQ44
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DeviceName=XQ-DQ44 \
+    DeviceProduct=XQ-DQ44 \
+    SystemDevice=XQ-DQ44 \
+    SystemName=XQ-DQ44 \
+    BuildFingerprint=Sony/XQ-DQ44/XQ-DQ44:14/67.1.A.2.315/067001A002031500236847703:user/release-keys \
+    BuildDesc="XQ-DQ44-user 14 67.1.A.2.315 067001A002031500236847703 release-keys"
 
-IS_PHONE := true
-
-PRODUCT_NAME := lineage_pdx234
-PRODUCT_DEVICE := pdx234
-PRODUCT_MANUFACTURER := Sony
-PRODUCT_BRAND := Sony
-
-PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
