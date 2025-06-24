@@ -15,14 +15,14 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pdx234.mk \
-    $(LOCAL_DIR)/lineage_pdx234_jp.mk
+    $(LOCAL_DIR)/aicp_pdx234.mk \
+    $(LOCAL_DIR)/aicp_pdx234_jp.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pdx234-user \
-    lineage_pdx234-userdebug \
-    lineage_pdx234-eng \
-    lineage_pdx234_jp-user \
-    lineage_pdx234_jp-userdebug \
-    lineage_pdx234_jp-eng \
+    aicp_pdx234-user \
+    aicp_pdx234-userdebug \
+    aicp_pdx234-eng \
+    aicp_pdx234_jp-user \
+    aicp_pdx234_jp-userdebug \
+    aicp_pdx234_jp-eng \
 
