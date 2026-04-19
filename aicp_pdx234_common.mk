@@ -21,13 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common AICP stuff.
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 IS_PHONE := true
 
-PRODUCT_NAME := aicp_pdx234
 PRODUCT_MODEL := Xperia 1 V
+PRODUCT_NAME := aicp_pdx234
 PRODUCT_DEVICE := pdx234
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
